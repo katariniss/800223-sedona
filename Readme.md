@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Екатерина Чекина](https://up.htmlacademy.ru/htmlcss/21/user/800223).
-* Наставник: [Михаил Поданев] (https://htmlacademy.ru/profile/mpodanev).
+* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev).
 
 ---
 
