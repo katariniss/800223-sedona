@@ -45,12 +45,6 @@ a {
   color: #b2b2b2;
 }
 
-.welcome {
-  background-color: #81b3d2;
-  background-image: url("img/background-photo.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-}
 
 .features-list,
 .feature-item {
@@ -158,6 +152,7 @@ a {
   font-weight: bold;
   text-align: center;
 }
+
 .footer-social {
   text-align: center;
 }
@@ -190,3 +185,77 @@ a {
 .filters ul {
   list-style: none;
 }
+
+.html,
+body {
+  min-width: 1200px;
+}
+
+.main-header {
+  margin-bottom: 20px;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.site-navigation{
+  margin: 0;
+  padding: 0;
+}
+
+.main-header-logo {
+  width: 141;
+  height: 71;
+}
+
+.features-container-1 {
+  display: flex;
+}
+
+.features-container-2 {
+  display: flex;
+}
+
+.features-container-3 {
+  display: flex;
+}
+
+features-container-4 {
+  display: flex;
+} 
+
+.feature-item {
+  width: 400px;
+  height: 255px;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.filters {
+  display: flex;
+}
+.infrastructure {
+  width: 240px;
+  margin-left: 73px;
+}
+
+.accomodation-type {
+  width: 288px;
+  margin-right: 200px;
+}
+
+.price-filter {
+  width: 328;
+  margin-left: 73px;
+}
+
+.catalog {
+  display: flex;
+ 
+}
+
