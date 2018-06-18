@@ -215,7 +215,7 @@ body {
   display: flex;
 }
 
-.features-container-2 {
+.features-list {
   display: flex;
 }
 
@@ -223,9 +223,6 @@ body {
   display: flex;
 }
 
-features-container-4 {
-  display: flex;
-} 
 
 .feature-item {
   width: 400px;
