@@ -191,6 +191,12 @@ body {
   min-width: 1200px;
 }
 
+.container {
+  width: 1200px;
+  margin-left: 0:
+  margin-right:0;
+}
+
 .main-header {
   margin-bottom: 20px;
 }
@@ -202,6 +208,8 @@ body {
 
 
 .site-navigation{
+  display: flex;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
 }
@@ -233,7 +241,13 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.filters {
+
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters-wrapper {
   display: flex;
 }
 .infrastructure {
@@ -251,8 +265,14 @@ body {
   margin-left: 73px;
 }
 
-.catalog {
+.catalog-list {
   display: flex;
- 
+  flex-direction: column;
 }
+
+.catalog-item {
+  display: flex;
+}
+
+
 
