@@ -45,6 +45,31 @@ a {
   color: #b2b2b2;
 }
 
+.welcome {
+  background-image: url("../img/sedona-index-1200.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 508px;
+}
+
+.features {
+  margin-top: 60px;
+}
+
+.features-container-1 {
+  margin-top: 105px;
+}
+
+.features-container-1 .blue-background {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.features h2,
+.features p {
+  text-align: center;
+}
 
 .features-list,
 .feature-item {
@@ -53,6 +78,10 @@ a {
 
 .feature-item {
   text-align: center;
+  padding-top: 70px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-bottom: 84px;
 }
 
 .feature-item h3 {
@@ -64,6 +93,26 @@ a {
   color: #ffffff;
   background-color: #81b3d2;
   text-align: center;
+}
+
+.features-container-1 .photo {
+  display: flex;
+  flex-grow: 1;
+  background-image: url("../img/background-photo-1.jpg");
+}
+
+.features-container-3 .photo {
+  display: flex;
+  flex-grow: 1;
+  background-image: url("../img/background-photo-2.jpg");
+}
+
+.features-container-3 .blue-background {
+  padding-top: 20px;
+  padding-bottom: 62px;
+  padding-left: 45px;
+  padding-right: 45px;
+
 }
 
 .grey-background {
@@ -177,6 +226,11 @@ a {
   color: #bdbbbc;
 }
 
+.filters {
+  color: white;
+  background: url("../img/filter-background.jpg");
+}
+
 .filter fieldset {
   border: none;
 }
@@ -193,25 +247,37 @@ body {
 
 .container {
   width: 1200px;
-  margin-left: 0:
-  margin-right:0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-header {
   margin-bottom: 20px;
 }
 
-.main-navigation {
-  display: flex;
-  justify-content: space-around;
-}
-
-
 .site-navigation{
   display: flex;
   justify-content: space-around;
   margin: 0;
   padding: 0;
+}
+
+.info a {
+  width: 240px;
+  margin-left: 73px;
+}
+.photo-video a {
+  width: 200px;
+  margin-right: auto;
+}
+
+.state-map a {
+  width: 328px;
+  margin-left: auto;
+}
+
+.hotels a {
+  width: 200px;
 }
 
 .main-header-logo {
@@ -231,6 +297,11 @@ body {
   display: flex;
 }
 
+.features-container-4 .feature-item {
+  width: 400px;
+  padding-top: 46px;
+  padding-bottom: 60px;
+}
 
 .feature-item {
   width: 400px;
@@ -274,5 +345,28 @@ body {
   display: flex;
 }
 
+.amara,
+.villas,
+.desert {
+  display: flex;
+}
 
+.catalog-list img {
+  padding-left: 73px;
+  padding-top: 31px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.hotel-info {
+  width: 364px;
+  padding-top: 31px;
+  
+}
+
+.hotel-rating {
+  width: 313px;
+  margin-left: auto;
+  padding-bottom: 31px; 
+}
 
