@@ -5,7 +5,7 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
-  color: #5c5c5c;
+  color: black;
   text-transform: uppercase;
 
   background-color: #ffffff;
@@ -15,41 +15,84 @@ a {
   text-decoration: none;
 }
 
+.html, 
+body {
+  min-width: 1200px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
-  color: #000000; 
-
-  background-color: #ffffff;
-}
-
-.site-navigation,
-.user-navigation {
-  list-style: none;
-}
-
-.site-navigation a,
-.user-navigation a {
   color: #000000;
 }
 
+.site-navigation {
+  display: flex;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+
+  min-height: 56px;
+
+  font-weight: bold;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+.site-navigation li:nth-child(2n){
+  margin-right: auto;
+}
+.site-navigation li {
+  width: 263px;
+}
+
+.site-navigation li:nth-child(3n),
+.site-navigation li:last-child {
+  text-align: right;
+}
+
 .site-navigation a:hover,
-.site-navigation a:focus,
-.user-navigation a:hover,
-.user-navigation a:focus {
+.site-navigation a:focus {
   color: #a3c7de;
 }
 
-.site-navigation a:active,
-.user-navigation a:active {
+.site-navigation a:active {
   color: #b2b2b2;
+}
+
+.site-navigation:first-child{
+  margin-left: 73px;
+}
+
+.site-navigation:last-child{
+  margin-right: 73px;
+}
+
+.main-header-logo {
+  /* отцентровали лого и задали смещение влево на половину ширины картинки */
+  position: absolute;
+  left: 50%;
+  margin-left: -69px;
 }
 
 .welcome {
   background-image: url("../img/sedona-index-1200.jpg");
   background-position: center;
   background-size: cover;
-  height: 508px;
+  height: 650px;
 }
 
 .features {
@@ -79,14 +122,36 @@ a {
 .feature-item {
   text-align: center;
   padding-top: 70px;
-  padding-left: 110px;
-  padding-right: 110px;
-  padding-bottom: 84px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 80px;
+}
+
+.feature-item p {
+  margin: 0 10px;
 }
 
 .feature-item h3 {
+  position: relative;
   font-size: 21px;
   line-height: 26px;
+}
+
+.feature-item h3::before {
+  content: "";
+
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+  right: 50%;
+  top: -50px;
+
+  background-color: red;
+}
+
+accomodation-icon::before {
+  background-image: url("../img/icon-1.svg");
 }
 
 .blue-background {
@@ -240,51 +305,6 @@ a {
   list-style: none;
 }
 
-.html,
-body {
-  min-width: 1200px;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main-header {
-  margin-bottom: 20px;
-}
-
-.site-navigation{
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-  padding: 0;
-}
-
-.info a {
-  width: 240px;
-  margin-left: 73px;
-}
-.photo-video a {
-  width: 200px;
-  margin-right: auto;
-}
-
-.state-map a {
-  width: 328px;
-  margin-left: auto;
-}
-
-.hotels a {
-  width: 200px;
-}
-
-.main-header-logo {
-  width: 141;
-  height: 71;
-}
-
 .features-container-1 {
   display: flex;
 }
@@ -323,7 +343,7 @@ body {
 }
 .infrastructure {
   width: 240px;
-  margin-left: 73px;
+  margin-left:  px;
 }
 
 .accomodation-type {
@@ -370,3 +390,20 @@ body {
   padding-bottom: 31px; 
 }
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
