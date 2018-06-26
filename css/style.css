@@ -104,6 +104,10 @@ body {
   margin-top: 60px;
 }
 
+.feature-text-grey {
+  color: #333333;
+}
+
 .features-container-1 {
   margin-top: 105px;
 }
@@ -186,7 +190,6 @@ accomodation-icon::before {
 }
 
 .grey-background {
-  color:#000000;
   background-color: #eeeeee;
   text-align: center;
 }
