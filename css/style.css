@@ -15,8 +15,13 @@ a {
 }
 
 h3,
-p {
+p,
+ul {
   margin: 0;
+}
+
+ul {
+  padding: 0;
 }
 
 .html, 
@@ -189,15 +194,15 @@ body {
   line-height: 26px;
 }
 
-.feature-item h3::before {
+.with-icon h3::before {
   content: "";
 
   position: absolute;
 
   width: 20px;
   height: 20px;
-  right: 50%;
-  top: -50px;
+  /* right: 50%;
+  top: -50px; */
 
   background-color: red;
 }
@@ -222,6 +227,22 @@ accomodation-icon::before {
   height: 255px;
   width: 800px;
 }
+
+.features-container-2 li {
+  width: 400px;
+}
+
+.features-container-2 .feature-item-text:nth-child(1n),
+.features-container-2 .feature-item-text:nth-child(3n) {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.features-container-2 .feature-item-text:nth-child(2n){
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 
 .features-container-3 .photo {
   background-image: url("../img/background-photo-2.jpg");
