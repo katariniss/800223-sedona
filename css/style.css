@@ -113,6 +113,7 @@ body {
 
 .features {
   margin-top: 56px;
+  text-align: center;
 }
 
 .feature-text-grey {
@@ -139,9 +140,6 @@ body {
   padding-right: 60px;
 }
 
-.features-container-1 .feature-item-new {
-  width: 400px;
-}
 .features-container-1 .feature-item-text {
   padding-left: 50px;
   padding-right: 50px;
@@ -149,7 +147,6 @@ body {
 
 .feature-item-new {
   padding-top: 38px;
-  text-align: center;
 }
 
 .feature-item-number {
@@ -163,12 +160,10 @@ body {
 .blue-background-new {
   color: #ffffff;
   background-color: #81b3d2;
-  
 }
 
-.features h2,
-.features p {
-  text-align: center;
+.grey-background-new {
+  background-color: #eeeeee;
 }
 
 .features-list,
@@ -176,19 +171,7 @@ body {
   list-style: none;
 }
 
-.feature-item {
-  text-align: center;
-  padding-top: 70px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 80px;
-}
-
-.feature-item p {
-  margin: 0 10px;
-}
-
-.feature-item h3 {
+.feature-item-new h3 {
   position: relative;
   font-size: 21px;
   line-height: 26px;
@@ -211,25 +194,16 @@ accomodation-icon::before {
   background-image: url("../img/icon-1.svg");
 }
 
-.blue-background {
-  color: #ffffff;
-  background-color: #81b3d2;
-  text-align: center;
-}
-
 .photo {
   display: flex;
   flex-grow: 1;
-}
-
-.features-container-1 .photo {
-  background-image: url("../img/background-photo-1.jpg");
   height: 255px;
   width: 800px;
 }
 
-.features-container-2 li {
-  width: 400px;
+.features-container-1 .photo {
+  background-image: url("../img/background-photo-1.jpg");
+
 }
 
 .features-container-2 .feature-item-text:nth-child(1n),
@@ -243,6 +217,9 @@ accomodation-icon::before {
   padding-right: 50px;
 }
 
+.features-container-3 {
+  margin-top: 86px;
+}
 
 .features-container-3 .photo {
   background-image: url("../img/background-photo-2.jpg");
@@ -253,12 +230,26 @@ accomodation-icon::before {
   padding-bottom: 62px;
   padding-left: 45px;
   padding-right: 45px;
-
 }
 
-.grey-background {
-  background-color: #eeeeee;
-  text-align: center;
+.features-container-4 {
+  padding-bottom: 63px;
+}
+
+.features-container-4 ul:last-child .feature-item-text{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.features-container-4 .feature-item-text:nth-child(1n),
+.features-container-4 .feature-item-text:nth-child(2n) {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.features-container-4 h3 {
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .hotel-search a,
@@ -393,12 +384,11 @@ accomodation-icon::before {
 }
 
 .features-container-4 .feature-item {
-  width: 400px;
   padding-top: 46px;
   padding-bottom: 60px;
 }
 
-.feature-item {
+.feature-item-new {
   width: 400px;
 }
 
