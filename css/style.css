@@ -107,16 +107,26 @@ body {
 }
 
 .features {
-  margin-top: 60px;
+  margin-top: 56px;
 }
 
 .feature-text-grey {
   color: #333333;
+  font-size: 14px;
+}
+
+.features .feature-text-grey {
+  margin-top: 24px;
 }
 
 .features-container-1 {
   margin-top: 105px;
 }
+
+.features-container-1 {
+  margin-top: 57px;
+}
+
 
 .features-container-1 .blue-background {
   padding-top: 22px;
