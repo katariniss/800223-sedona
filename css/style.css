@@ -9,12 +9,14 @@ body {
   text-transform: uppercase;
 
   background-color: #ffffff;
-  
-
-
 }
 a {
   text-decoration: none;
+}
+
+h3,
+p {
+  margin: 0;
 }
 
 .html, 
@@ -28,8 +30,6 @@ body {
   margin-right: auto;
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
-
-
 
 .main-navigation {
   font-size: 14px;
@@ -129,11 +129,38 @@ body {
 
 
 .features-container-1 .blue-background {
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 38px;
   padding-left: 60px;
   padding-right: 60px;
 }
+
+.features-container-1 .feature-item-new {
+  width: 400px;
+}
+.features-container-1 .feature-item-text {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.feature-item-new {
+  padding-top: 38px;
+  text-align: center;
+}
+
+.feature-item-number {
+  margin-top: 15px;
+}
+
+.feature-item-text {
+  margin-top: 20px;
+}
+
+.blue-background-new {
+  color: #ffffff;
+  background-color: #81b3d2;
+  
+}
+
 .features h2,
 .features p {
   text-align: center;
@@ -185,15 +212,18 @@ accomodation-icon::before {
   text-align: center;
 }
 
-.features-container-1 .photo {
+.photo {
   display: flex;
   flex-grow: 1;
+}
+
+.features-container-1 .photo {
   background-image: url("../img/background-photo-1.jpg");
+  height: 255px;
+  width: 800px;
 }
 
 .features-container-3 .photo {
-  display: flex;
-  flex-grow: 1;
   background-image: url("../img/background-photo-2.jpg");
 }
 
@@ -349,7 +379,6 @@ accomodation-icon::before {
 
 .feature-item {
   width: 400px;
-  height: 255px;
 }
 
 .main-footer {
