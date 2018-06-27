@@ -237,6 +237,17 @@ accomodation-icon::before {
   padding-right: 130px;
 }
 
+.hotel-search-intro {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hotel-search-intro {
+  font-size: 21px;
+  padding-left: 380px;
+  padding-right: 380px; 
+}
+
 .hotel-search a,
 .brown-button {
   color: #ffffff;
@@ -307,8 +318,19 @@ accomodation-icon::before {
   border: 2px solid #ebebeb;
 }
 
-.main-footer {
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   color: #000000;
+  background-color: white;
+  opacity: 0.9;
+  height: 120px;
+}
+
+.main-footer {
+  margin-top: -120px;
 }
 
 .hashtag-sedona {
@@ -370,11 +392,6 @@ accomodation-icon::before {
 
 .feature-item {
   width: 400px;
-}
-
-.main-footer {
-  display: flex;
-  justify-content: space-around;
 }
 
 .footer-social-list {
