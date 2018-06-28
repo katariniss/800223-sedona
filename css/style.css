@@ -170,20 +170,34 @@ body {
 }
 
 .with-icon h3::before {
-  content: "";
-
   position: absolute;
+  left: 50%;
+  margin-left: -37px;
 
-  width: 20px;
-  height: 20px;
-  /* right: 50%;
-  top: -50px; */
+  content: ' ';
 
-  background-color: red;
 }
 
-accomodation-icon::before {
+.accomodation-icon::before {
   background-image: url("../img/icon-1.svg");
+  height: 72px;
+  width: 75px;
+  top: -94px;
+  
+}
+
+.food-icon::before {
+  background-image: url("../img/icon-3.svg");
+  height: 70px;
+  width: 75px;
+  top: -92px;
+}
+
+.souvenir-icon::before {
+  background-image: url("../img/icon-2.svg");
+  height: 76px;
+  width: 65px;
+  top: -92px;
 }
 
 .photo {
@@ -196,6 +210,10 @@ accomodation-icon::before {
 .features-container-1 .photo {
   background-image: url("../img/background-photo-1.jpg");
 
+}
+
+.features-container-2 {
+  margin-top: 118px;
 }
 
 .features-container-2 .feature-item-text:nth-child(1n),
