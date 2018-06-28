@@ -155,7 +155,7 @@ body {
   background-color: #81b3d2;
 }
 
-.grey-background-new {
+.grey-background {
   background-color: #eeeeee;
 }
 
@@ -345,15 +345,54 @@ footer {
 }
 
 .footer-social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0 auto;
+  padding: 0;
+
   list-style: none;
+  opacity: 1;
 }
 
-.social-button {
-  color: #000000;
+.social-button:hover,
+.social-button:focus {
+  background-color: #669ec0;
 }
 
-.footer-copyright {
-  text-align: center;
+.social-button:active {
+  background-color: #5496bd;
+}
+
+.social-button:active path {
+  fill: #88b6d1;
+}
+
+.footer-copyright-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright-wrapper a {
+  height: 40px;
+}
+
+.footer-copyright-wrapper svg {
+  margin-left: 8px;
+  height: 40px;
+}
+
+.footer-copyright a svg:hover path,
+.footer-copyright a svg:focus path,
+.footer-copyright a svg:hover rect,
+.footer-copyright a svg:focus rect { 
+  fill: #81b3d2;
+}
+
+.footer-copyright a svg:active path,
+.footer-copyright a svg:active rect { 
+  fill: #bdbbbc;
 }
 
 .footer-copyright a:hover,
@@ -398,6 +437,15 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 48px;
+
+  background-color: #81b3d2;
+}
 
 .filters-wrapper {
   display: flex;
@@ -432,23 +480,35 @@ footer {
   display: flex;
 }
 
-.catalog-list img {
+.catalog-list li {
+  border-top: 1px solid #e5e5e5;
   padding-left: 73px;
   padding-top: 31px;
-  padding-right: 30px;
+  padding-right: 73px;
   padding-bottom: 30px;
 }
 
+.catalog-list:last-child {
+  border-bottom: 1px solid #e5e5e5;
+}
+
 .hotel-info {
-  width: 364px;
-  padding-top: 31px;
-  
+  margin-right: auto;
 }
 
 .hotel-rating {
-  width: 313px;
-  margin-left: auto;
-  padding-bottom: 31px; 
+  text-align: end;
+  align-self: flex-end;
+}
+
+.raiting {
+  display: block;
+  width: 111px;
+  height: 27px;
+  background-color: #f2f2f2;
+  color: #666666;
+  line-height: 21px;
+  text-align: center;
 }
 
 .visually-hidden:not(:focus):not(:active),
