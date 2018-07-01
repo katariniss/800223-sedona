@@ -91,6 +91,10 @@ body {
   margin-right: 73px;
 }
 
+.site-navigation-current.active a {
+  color: #766357;
+}
+
 .main-header-logo {
   /* отцентровали лого и задали смещение влево на половину ширины картинки */
   position: absolute;
@@ -703,34 +707,63 @@ footer {
   margin-right: 33px;
 }
 
-.search-results-sorting-option.active a{
+.search-results-sorting-option.active a,
+a.descending-order.active {
   color: #81b3d2;
   text-decoration: none;
   border-bottom: none;
 }
 
-.search-results a {
+.search-results-sorting-option a {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
   border-bottom: 1px dotted #81b3d2;
 }
 
-.search-results a:current {
+.search-results-sorting-option a:current {
   color: #81b3d2;
 }
 
-.search-results a:hover,
-.search-results a:focus {
+.search-results-sorting-option a:hover,
+.search-results-sorting-option a:focus {
   color: #81b3d2;
   text-decoration: underline;
   border-bottom: 1px dotted #81b3d2;
 }
 
-.search-results a:active {
+.search-results-sorting-option a:active {
   color: black;
   text-decoration: none;
   border-bottom: none;
 }
+
+.search-results {
+  display: flex;
+}
+
+.sorting-direction {
+  margin-left: auto;
+  padding-right: 73px;
+}
+
+
+a.ascending-order svg polygon {
+  fill: #cacaca;
+}
+
+a.descending-order svg:focus polyline,
+a.ascending-order svg:focus polygon,
+a.descending-order svg:hover polyline,
+a.ascending-order svg:hover polygon {
+  fill: black;
+}
+
+a.descending-order svg:active polyline,
+a.ascending-order svg:active polygon,
+a.descending-order.active polyline {
+  fill: #81b3d2;
+}
+
 
 /* .ascending-order a{
   background-image: url("../img/icon-up-dir.svg");
@@ -789,6 +822,14 @@ footer {
 
 .hotel-info h3{
   margin-top: -6px;
+}
+
+.hotel-info-wrapper {
+  display: flex;
+}
+
+.hotel-name {
+  margin-right: 6px;
 }
 
 .hotel-rating {
