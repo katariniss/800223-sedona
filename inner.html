@@ -97,18 +97,28 @@
         </div>
       </section>
       <section class="search-results">
-        <span>Найдено: 3</span>
-        <span>Сортировка:</span>
-        <span class="search-results-current">
-          <a href="#">По цене</a>
-        </span>
-        <span>
-          <a href="#">По типу</a>
-        </span>
-        <span>
-          <a href="#">По рейтингу</a>
-        </span>
+        <div class="search-results-wrapper">
+            <span class="search-results-number">Найдено: 3</span>
+            <span class="search-results-sorting">Сортировка:</span>
+            <span class="search-results-sorting-option active">
+              <a href="#">По цене</a>
+            </span>
+            <span class="search-results-sorting-option">
+              <a href="#">По типу</a>
+            </span>
+            <span class="search-results-sorting-option">
+              <a href="#">По рейтингу</a>
+            </span>
+        </div>
       </section>
+      <!-- <div class="sorting-direction">
+          <span class="ascending-order">
+            <a href="#"></a>
+          </span>
+          <span class="descending-order">
+            <a href="#"></a>
+          </span>
+        </div> -->
       <section class="catalog">
         <h2 class="visually-hidden">Список гостиниц</h2>
         <ul class="catalog-list">
@@ -126,7 +136,12 @@
               </p>
             </div>
             <div class="hotel-rating">
-              <span class="stars"> </span>
+               <div class="stars">
+                  <img src="img/★ .svg">
+                  <img src="img/★ .svg">
+                  <img src="img/★ .svg">
+                  <img src="img/★ .svg">
+              </div>
               <span class="raiting">Рейтинг: 8,5</span>
             </div>
           </li>
@@ -139,12 +154,16 @@
                 <span>от 3000 р.</span>
               </p>
               <p class="more-book">
-                <a class="button blue-button" href="#">Подробнее</a>
-                <a class="button brown-button" href="#">Забронировать</a>
+                <a class="blue-button" href="#">Подробнее</a>
+                <a class="brown-button" href="#">Забронировать</a>
               </p>
             </div>
             <div class="hotel-rating">
-              <span class="stars"> </span>
+              <div class="stars">
+                <img src="img/★ .svg">
+                <img src="img/★ .svg">
+                <img src="img/★ .svg">
+              </div>
               <span class="raiting">Рейтинг: 8,9</span>
             </div>
           </li>
@@ -162,7 +181,10 @@
               </p>
             </div>
             <div class="hotel-rating">
-              <span class="stars"> </span>
+              <div class="stars">
+                  <img src="img/★ .svg">
+                  <img src="img/★ .svg">
+                </div>
               <span class="raiting">Рейтинг: 9,2</span>
             </div>
           </li>
