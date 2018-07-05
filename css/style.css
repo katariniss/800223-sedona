@@ -1015,6 +1015,19 @@ a.descending-order.active polyline {
   margin-top: -6px;
 }
 
+.hotel-info h3 a {
+  color: #000000;
+}
+
+.hotel-info h3 a:hover,
+.hotel-info h3 a:focus {
+  color: #81b3d2;
+}
+
+.hotel-info h3 a:active {
+  color:rgba(0, 0, 0, 0.3);
+}
+
 .hotel-info-wrapper {
   display: flex;
 }
