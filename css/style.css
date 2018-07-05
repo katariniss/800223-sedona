@@ -301,7 +301,7 @@ body {
 }
 
 .modal-hotel-search {
-
+  display: none;
   left: 50%;
   
   /* min-height: 397px; */
@@ -473,6 +473,33 @@ body {
   background-color: #669ec0;
 }
 
+.modal-hidden {
+  display: none;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-86px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.modal-show {
+  display: block;
+  
+  animation: bounce 0.3s;
+}
 
 .search-button:active,
 .blue-button:active {
