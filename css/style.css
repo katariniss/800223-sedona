@@ -197,6 +197,7 @@ input:focus, input:active {
   position: relative;
   font-size: 21px;
   line-height: 26px;
+  margin-top: 5px;
 }
 
 .with-icon h3::before {
@@ -211,7 +212,7 @@ input:focus, input:active {
   background-repeat: no-repeat;
   height: 72px;
   width: 75px;
-  top: -94px;
+  top: -100px;
 }
 
 .food-icon::before {
@@ -219,15 +220,15 @@ input:focus, input:active {
   background-repeat: no-repeat;
   height: 70px;
   width: 75px;
-  top: -92px;
+  top: -98px;
 }
 
 .souvenir-icon::before {
   background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
   height: 75px;
-  width: 65px;
-  top: -96px;
+  width: 70px;
+  top: -103px;
 }
 
 .photo {
@@ -255,13 +256,17 @@ input:focus, input:active {
   padding-right: 60px;
 }
 
+.feature-item .feature-item-text {
+  margin-top: 18px;
+}
+
 .features-container-2 .feature-item-text:nth-child(2n) {
   padding-left: 50px;
   padding-right: 50px;
 }
 
 .features-container-3 {
-  margin-top: 70px;
+  margin-top: 74px;
 }
 
 .features-container-3 .photo {
@@ -270,12 +275,12 @@ input:focus, input:active {
 }
 
 .features-container-4 {
-  padding-bottom: 41px;
+  padding-bottom: 51px;
 }
 
 .features-container-4 ul:last-child .feature-item-text {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .features-container-4 .feature-item-text:nth-child(1n), .features-container-4 .feature-item-text:nth-child(2n) {
@@ -286,6 +291,15 @@ input:focus, input:active {
 .features-container-4 h3 {
   padding-left: 130px;
   padding-right: 130px;
+  margin-top: 9px;
+}
+
+.features-container-4 .feature-text-grey{
+  margin-top: -2px;
+}
+
+.features-container-4 .feature-item-text{
+  margin-top: 16px;
 }
 
 .hotel-search-intro {
@@ -339,7 +353,7 @@ input:focus, input:active {
 
 .hotel-search-form p {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
 }
 
 .hotel-search-form input[type="text"], .people-number-input {
@@ -360,7 +374,11 @@ input:focus, input:active {
 }
 
 .arrival-date-container, .departure-date-container {
-  padding-bottom: 12px;
+  padding-bottom: 13px;
+}
+
+p.departure-date-container{
+  margin-bottom: 27px;
 }
 
 .people-number-input {
@@ -387,12 +405,12 @@ input:focus, input:active {
 }
 
 .minus-button {
-  width: 38px;
+  width: 42px;
   height: 11px;
 }
 
 .plus-button {
-  width: 38px;
+  width: 36px;
   height: 11px;
 }
 
@@ -407,7 +425,7 @@ input:focus, input:active {
 .custom-number-input input {
   border-width: 0;
   text-align: center;
-  width: 26px;
+  width: 24px;
   height: 34px;
 }
 
@@ -486,7 +504,7 @@ input:focus, input:active {
   width: 458px;
   min-height: 59px;
   margin-right: 0;
-  margin-top: 28px;
+  margin-top: 30px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 21px;
   outline: none;
