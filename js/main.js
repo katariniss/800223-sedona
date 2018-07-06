@@ -21,6 +21,7 @@ try {
 
 searchButton.addEventListener('click', function (evt) {
     evt.preventDefault();
+    searchPopup.classList.remove("modal-error");
     searchPopup.classList.toggle('modal-show');
 
     if (adultsFromStorage) {
