@@ -294,11 +294,11 @@ input:focus, input:active {
   margin-top: 9px;
 }
 
-.features-container-4 .feature-text-grey{
+.features-container-4 .feature-text-grey {
   margin-top: -2px;
 }
 
-.features-container-4 .feature-item-text{
+.features-container-4 .feature-item-text {
   margin-top: 16px;
 }
 
@@ -377,7 +377,7 @@ input:focus, input:active {
   padding-bottom: 13px;
 }
 
-p.departure-date-container{
+p.departure-date-container {
   margin-bottom: 27px;
 }
 
@@ -614,6 +614,13 @@ p.departure-date-container{
 
 .hotel-search-item input:hover, .hotel-search-item input:focus {
   background-color: #ebebeb;
+}
+
+.map {
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 602px;
 }
 
 footer {
@@ -1085,11 +1092,11 @@ a.descending-order svg:active polyline, a.ascending-order svg:active polygon, a.
   display: flex;
 }
 
-.amara h3{
+.amara h3 {
   letter-spacing: 0.1px;
 }
 
-.villas h3{
+.villas h3 {
   letter-spacing: 0.3px;
 }
 
