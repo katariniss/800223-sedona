@@ -623,6 +623,10 @@ p.departure-date-container {
   height: 602px;
 }
 
+iframe {
+  border-width: 0px;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
