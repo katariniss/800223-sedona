@@ -621,6 +621,7 @@ p.departure-date-container {
 .map {
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
+  background-color: #cbdda9;
   width: 1200px;
   height: 602px;
 }
