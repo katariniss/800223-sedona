@@ -1,5 +1,5 @@
-var searchButton = document.querySelector('.hotel-search-button');
-var searchPopup = document.querySelector('.modal-hotel-search');
+var searchButton = document.querySelector(".hotel-search-button");
+var searchPopup = document.querySelector(".modal-hotel-search");
 
 var form = searchPopup.querySelector("form");
 
@@ -19,10 +19,10 @@ try {
     isStorageSupported = false;
 }
 
-searchButton.addEventListener('click', function (evt) {
+searchButton.addEventListener("click", function (evt) {
     evt.preventDefault();
     searchPopup.classList.remove("modal-error");
-    searchPopup.classList.toggle('modal-show');
+    searchPopup.classList.toggle("modal-show");
 
     if (adultsFromStorage) {
         adultsNumberInput.value = adultsFromStorage;
@@ -47,26 +47,26 @@ form.addEventListener("submit", function (evt) {
     }
 });
 
-var adultsIncrementButton = document.querySelector('.adults-plus-button');
-var adultsDecrementButton = document.querySelector('.adults-minus-button');
+var adultsIncrementButton = document.querySelector(".adults-plus-button");
+var adultsDecrementButton = document.querySelector(".adults-minus-button");
 
-var childrenIncrementButton = document.querySelector('.children-plus-button');
-var childrenDecrementButton = document.querySelector('.children-minus-button');
+var childrenIncrementButton = document.querySelector(".children-plus-button");
+var childrenDecrementButton = document.querySelector(".children-minus-button");
 
-adultsIncrementButton.addEventListener('click', function (evt) {
+adultsIncrementButton.addEventListener("click", function (evt) {
     incrementInputValue(adultsNumberInput);
 });
 
-adultsDecrementButton.addEventListener('click', function (evt) {
+adultsDecrementButton.addEventListener("click", function (evt) {
     decrementInputValue(adultsNumberInput);
 });
 
 
-childrenIncrementButton.addEventListener('click', function (evt) {
+childrenIncrementButton.addEventListener("click", function (evt) {
     incrementInputValue(childrenNumberInput);
 });
 
-childrenDecrementButton.addEventListener('click', function (evt) {
+childrenDecrementButton.addEventListener("click", function (evt) {
     decrementInputValue(childrenNumberInput);
 });
 
