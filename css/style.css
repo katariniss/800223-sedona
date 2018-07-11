@@ -419,12 +419,14 @@ p.departure-date-container {
 }
 
 .custom-number-input-adults {
-  margin-left: 39px;
-  margin-right: 52px;
+  display: block;
+  margin-left: 42px;
+  margin-right: 54px;
 }
 
 .custom-number-input-children {
-  margin-left: 26px;
+  display: block;
+  margin-left: 31px;
 }
 
 .minus-button {
@@ -448,16 +450,11 @@ p.departure-date-container {
 .custom-number-input input {
   border-width: 0;
   text-align: center;
-  width: 24px;
+  width: 22px;
   height: 34px;
 }
 
 .hotel-search-form input[type="text"] {
-  background-color: #f2f2f2;
-  border: 1px solid transparent;
-}
-
-.hotel-search-form input:hover, {
   background-color: #f2f2f2;
   border: 1px solid transparent;
 }
@@ -467,16 +464,24 @@ p.departure-date-container {
   border: 1px solid #ebebeb;
 }
 
+.hotel-search-form input:hover {
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
+}
+
+
 .search-dates label {
   display: inline-block;
   vertical-align: middle;
   min-width: 108px;
   text-align: left;
+  letter-spacing: 0.4px;
   /* padding-right: 10px; */
 }
 
 .hotel-search-item.search-number {
-  display: block;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .search-number {
@@ -541,7 +546,7 @@ p.departure-date-container {
   width: 458px;
   min-height: 59px;
   margin-right: 0;
-  margin-top: 32px;
+  margin-top: 28px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 21px;
   font-weight: bold;
@@ -644,6 +649,7 @@ p.departure-date-container {
   font: inherit;
   text-transform: uppercase;
   background-color: #f2f2f2;
+  border: 1px solid transparent;
 }
 
 .hotel-search-item input:focus, .hotel-search-item input:active {
