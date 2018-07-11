@@ -898,7 +898,6 @@ footer {
 
 .infrastructure {
   width: 240px;
-  margin-left: px;
 }
 
 .accomodation-type {
@@ -912,7 +911,7 @@ footer {
 }
 
 .price-filter {
-  width: 328;
+  width: 328px;
   margin-left: 73px;
 }
 
@@ -1073,10 +1072,6 @@ footer {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
   border-bottom: 1px dotted #81b3d2;
-}
-
-.search-results-sorting-option a:current {
-  color: #81b3d2;
 }
 
 .search-results-sorting-option a:hover, .search-results-sorting-option a:focus {
