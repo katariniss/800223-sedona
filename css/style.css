@@ -469,7 +469,6 @@ p.departure-date-container {
   border: 1px solid transparent;
 }
 
-
 .search-dates label {
   display: inline-block;
   vertical-align: middle;
@@ -663,7 +662,7 @@ p.departure-date-container {
 .map {
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
-  background-color: #cbdda9; 
+  background-color: #cbdda9;
   width: 1200px;
   height: 593px;
 }
