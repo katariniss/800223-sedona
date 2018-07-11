@@ -92,6 +92,10 @@ input:focus, input:active {
   width: 241px;
 }
 
+.site-navigation li:nth-child(3) {
+  letter-spacing: 0.3px;
+}
+
 .site-navigation li:nth-child(3), .site-navigation li:last-child {
   text-align: right;
 }
@@ -173,7 +177,7 @@ input:focus, input:active {
 }
 
 .feature-item-number {
-  margin-top: 15px;
+  margin-top: 19px;
 }
 
 .feature-item-text {
@@ -196,8 +200,8 @@ input:focus, input:active {
 .feature-item h3 {
   position: relative;
   font-size: 21px;
-  line-height: 26px;
-  margin-top: 5px;
+  line-height: 1.1;
+  margin-top: 7px;
 }
 
 .with-icon h3::before {
@@ -258,6 +262,13 @@ input:focus, input:active {
 
 .feature-item .feature-item-text {
   margin-top: 18px;
+  margin-top: 20px;
+  line-height: 1.5;
+  padding: 0 47px;
+}
+
+.feature-item-text-1.feature-item-text-1 {
+  padding: 0 64px;
 }
 
 .features-container-2 .feature-item-text:nth-child(2n) {
@@ -266,7 +277,7 @@ input:focus, input:active {
 }
 
 .features-container-3 {
-  margin-top: 74px;
+  margin-top: 84px;
 }
 
 .features-container-3 .photo {
@@ -275,7 +286,7 @@ input:focus, input:active {
 }
 
 .features-container-4 {
-  padding-bottom: 51px;
+  padding-bottom: 59px;
 }
 
 .features-container-4 ul:last-child .feature-item-text {
@@ -299,7 +310,7 @@ input:focus, input:active {
 }
 
 .features-container-4 .feature-item-text {
-  margin-top: 16px;
+  margin-top: 19px;
 }
 
 .hotel-search-intro {
@@ -315,6 +326,7 @@ input:focus, input:active {
 
 .hotel-search-intro h2 {
   padding-top: 7px;
+  letter-spacing: -1px;
 }
 
 .hotel-search-button {
@@ -366,8 +378,8 @@ input:focus, input:active {
   color: #000000;
   text-transform: uppercase;
   background-color: #f2f2f2;
-  border: none;
-  outline: none;
+  /* border: none;
+  outline: none; */
 }
 
 .hotel-search-form input[type="text"] {
@@ -395,14 +407,24 @@ p.departure-date-container {
   color: #000000;
   text-transform: uppercase;
   background-color: #f2f2f2;
+  border: 1px solid transparent;
 }
 
 .custom-number-input button {
   padding: 0;
-  border: none;
+  border: 1px solid transparent;
   background-color: #f2f2f2;
   cursor: pointer;
   outline: none;
+}
+
+.custom-number-input-adults {
+  margin-left: 39px;
+  margin-right: 52px;
+}
+
+.custom-number-input-children {
+  margin-left: 26px;
 }
 
 .minus-button {
@@ -430,7 +452,17 @@ p.departure-date-container {
   height: 34px;
 }
 
-.hotel-search-form input:active, .hotel-search-form input:active {
+.hotel-search-form input[type="text"] {
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
+}
+
+.hotel-search-form input:hover, {
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
+}
+
+.hotel-search-form input:focus, .hotel-search-form input:active {
   background-color: white;
   border: 1px solid #ebebeb;
 }
@@ -441,6 +473,10 @@ p.departure-date-container {
   min-width: 108px;
   text-align: left;
   /* padding-right: 10px; */
+}
+
+.hotel-search-item.search-number {
+  display: block;
 }
 
 .search-number {
@@ -505,7 +541,7 @@ p.departure-date-container {
   width: 458px;
   min-height: 59px;
   margin-right: 0;
-  margin-top: 30px;
+  margin-top: 32px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 21px;
   font-weight: bold;
@@ -614,16 +650,16 @@ p.departure-date-container {
   outline: none;
 }
 
-.hotel-search-item input:hover, .hotel-search-item input:focus {
+.hotel-search-item input:hover {
   background-color: #ebebeb;
 }
 
 .map {
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
-  background-color: #cbdda9;
+  background-color: #cbdda9; 
   width: 1200px;
-  height: 602px;
+  height: 593px;
 }
 
 iframe {
@@ -646,7 +682,7 @@ footer {
 }
 
 .main-footer {
-  margin-top: -129px;
+  margin-top: -120px;
 }
 
 .hashtag-sedona {
