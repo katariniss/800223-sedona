@@ -476,6 +476,7 @@ p.departure-date-container {
   min-width: 108px;
   text-align: left;
   letter-spacing: 0.4px;
+  /* padding-right: 10px; */
 }
 
 .hotel-search-item.search-number {
