@@ -391,7 +391,7 @@ input:focus, input:active {
 }
 
 p.departure-date-container {
-  margin-bottom: 27px;
+  margin-bottom: 24px;
 }
 
 .people-number-input {
@@ -407,12 +407,12 @@ p.departure-date-container {
   color: #000000;
   text-transform: uppercase;
   background-color: #f2f2f2;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .custom-number-input button {
   padding: 0;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   background-color: #f2f2f2;
   cursor: pointer;
   outline: none;
@@ -430,20 +430,20 @@ p.departure-date-container {
 }
 
 .minus-button {
-  width: 42px;
+  width: 40px;
   height: 11px;
 }
 
 .plus-button {
-  width: 36px;
+  width: 35px;
   height: 11px;
 }
 
-.custom-number-input button svg:hover, .custom-number-input button svg:focus {
+.custom-number-input svg:hover, .custom-number-input svg:focus {
   fill: black;
 }
 
-.custom-number-input button svg:active {
+.custom-number-input svg:active {
   fill: #81b3d2;
 }
 
@@ -456,17 +456,17 @@ p.departure-date-container {
 
 .hotel-search-form input[type="text"] {
   background-color: #f2f2f2;
-  border: 1px solid transparent;
-}
-
-.hotel-search-form input:focus, .hotel-search-form input:active {
-  background-color: white;
-  border: 1px solid #ebebeb;
+  border: 2px solid transparent;
 }
 
 .hotel-search-form input:hover {
   background-color: #f2f2f2;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
+}
+
+.hotel-search-form input:focus, .hotel-search-form input:active {
+  background-color: white;
+  border: 2px solid #ebebeb;
 }
 
 .search-dates label {
@@ -648,16 +648,19 @@ p.departure-date-container {
   font: inherit;
   text-transform: uppercase;
   background-color: #f2f2f2;
-  border: 1px solid transparent;
-}
-
-.hotel-search-item input:focus, .hotel-search-item input:active {
-  outline: none;
+  border: 2px solid transparent;
 }
 
 .hotel-search-item input:hover {
   background-color: #ebebeb;
 }
+
+.hotel-search-item input:focus, .hotel-search-item input:active {
+  outline: none;
+  background-color: white;
+  border: 2px solid #ebebeb;
+}
+
 
 .map {
   background-image: url("../img/map.jpg");
