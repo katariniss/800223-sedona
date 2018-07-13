@@ -15,6 +15,7 @@
 }
 
 body {
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
@@ -27,22 +28,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-h3, p, ul {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-}
-
-input:focus, input:active {
-  outline-offset: 0;
-}
-
-.html, body {
-  min-width: 1200px;
 }
 
 .container-shadow {
@@ -164,6 +149,7 @@ input:focus, input:active {
 }
 
 .features-container-1 h3 {
+  margin: 0;
   margin-top: 8px;
 }
 
@@ -201,6 +187,7 @@ input:focus, input:active {
   position: relative;
   font-size: 21px;
   line-height: 1.1;
+  margin: 0;
   margin-top: 7px;
 }
 
@@ -271,13 +258,18 @@ input:focus, input:active {
   padding: 0 64px;
 }
 
+.features-container-2 ul, .features-container-4 ul {
+  padding: 0;
+  margin: 0;
+}
+
 .features-container-2 .feature-item-text:nth-child(2n) {
   padding-left: 50px;
   padding-right: 50px;
 }
 
 .features-container-3 {
-  margin-top: 84px;
+  margin-top: 69px;
 }
 
 .features-container-3 .photo {
@@ -286,7 +278,7 @@ input:focus, input:active {
 }
 
 .features-container-4 {
-  padding-bottom: 59px;
+  padding-bottom: 47px;
 }
 
 .features-container-4 ul:last-child .feature-item-text {
@@ -302,6 +294,7 @@ input:focus, input:active {
 .features-container-4 h3 {
   padding-left: 130px;
   padding-right: 130px;
+  margin: 0;
   margin-top: 9px;
 }
 
@@ -329,6 +322,10 @@ input:focus, input:active {
   letter-spacing: -1px;
 }
 
+.hotel-search-intro-button {
+  margin-bottom: 0;
+}
+
 .hotel-search-button {
   position: relative;
   display: block;
@@ -346,6 +343,10 @@ input:focus, input:active {
   text-align: center;
   text-transform: uppercase;
   outline: none;
+}
+
+.hotel-search-intro-button a {
+  margin-bottom: 0;
 }
 
 .modal {
@@ -475,7 +476,6 @@ p.departure-date-container {
   min-width: 108px;
   text-align: left;
   letter-spacing: 0.4px;
-  /* padding-right: 10px; */
 }
 
 .hotel-search-item.search-number {
@@ -661,7 +661,6 @@ p.departure-date-container {
   border: 2px solid #ebebeb;
 }
 
-
 .map {
   background-image: url("../img/map.jpg");
   background-repeat: no-repeat;
@@ -793,7 +792,13 @@ footer {
 }
 
 .catalog ul, .filters ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.catalog p {
+  margin: 0;
 }
 
 .filter ul {
@@ -1139,10 +1144,12 @@ a.descending-order svg:active polyline, a.ascending-order svg:active polygon, a.
 }
 
 .amara h3 {
+  margin: 0;
   letter-spacing: 0.1px;
 }
 
 .villas h3 {
+  margin: 0;
   letter-spacing: 0.3px;
 }
 
@@ -1174,6 +1181,7 @@ a.descending-order svg:active polyline, a.ascending-order svg:active polygon, a.
 }
 
 .hotel-info h3 {
+  margin: 0;
   margin-top: -4px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 21px;
